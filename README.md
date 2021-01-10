@@ -1,2 +1,5 @@
 # Shopee-Code-Leageue-2020
-Consists of 2 projects that me and my team have done; Sentimental Analysis and Produt Detection
+This consists of 2 projects that me and my team attempted.
+1. Product Detection
+
+2. Sentimenta Analysis
