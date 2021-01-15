@@ -6,5 +6,13 @@ For product detection, we were given a problems consisiting of 100k images. The 
 
 ### Example of images
  ![CV images](https://github.com/JiaJun98/Shopee-Code-League-2020/blob/main/Product%20Detection/Image_classification(1).PNG)
+ 
+ ### File parsing
+ We first accessed the 105,405 files and 44 folders using Python's OpenCV library so that the images can be reshaped into Numpy arrays so that they can be read by other python libaries in our machine learning model. Our team also set up 41 categories(as per stated in the competition) for the OpenCV library to act on too.
+ 
+ ![parsing](https://github.com/JiaJun98/Shopee-Code-League-2020/tree/main/Product%20Detection)
+ 
+ 
+ 
 
 ## 2. Sentimental Analysis
