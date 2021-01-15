@@ -70,3 +70,5 @@ To clean the data, we removed punctuations,special characters and stopwords from
  After training, we used the model to predict the ratings based on the product review of the test set
  ![Model](https://github.com/JiaJun98/Shopee-Code-League-2020/blob/main/Product%20Detection/Predictions.PNG)
 
+ ### Results
+ We had an overall of 40.127% accuracy of product categories between test and the answer datasets. More improvements should be made to our model to improve accuracy
