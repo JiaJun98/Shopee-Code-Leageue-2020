@@ -40,9 +40,33 @@ For product detection, we were given a problems consisiting of 100k images. The 
 For sentimental analysis, we were given product review datasets. The goal was to create a classification model for sentimental analysis so as to predict the rating based on the reviews given using Natural Language Processing(NLP). Our team used nltk-for NLP-, tensorflow and keras for machine learning and sklearn for classification, regression and clustering algorithms.
 
 ### Data Pre-Processing
-To clean the data, we removed punctuations,special characters and stopwords.
+To clean the data, we removed punctuations,special characters and stopwords from all 28 languages in the nltk library
 
  ![Pre-processing1](https://github.com/JiaJun98/Shopee-Code-League-2020/blob/main/Sentimental%20Analysis/pre_processing(1).PNG)
  ![Pre-processing2](https://github.com/JiaJun98/Shopee-Code-League-2020/blob/main/Sentimental%20Analysis/pre_processing(2).PNG)
-
+ 
+  ### Feature engineering
+  We first set up 5 categories as the features to determine the ratings for the neural network to detect.
+  
+ ![ft](https://github.com/JiaJun98/Shopee-Code-League-2020/blob/main/Sentimental%20Analysis/Ft.PNG)
+ 
+ ### Tokenisations
+ Then we used the tokeniser function to sperate the text in the product review for better reading into the machine learning model.
+ ![Tokenisation](https://github.com/JiaJun98/Shopee-Code-League-2020/blob/main/Sentimental%20Analysis/tokeniser.PNG)
+ 
+ ### Model development and training
+ For the machine learning model, we used seqeuntial model from keras and tensorflow library with 
+ * 10 epoch
+ * 4 layers of size 64,64,512,6
+ * First layer consisting of embedding layer of size 64
+ * Second layer consistiing the Bidirectional LSTSM Classifier  of size 64
+ * Third layer conisting l2 kernel regularsers,l2 bias regularisers and activation 'relu' with size 512
+ * Fourth layer consisting softmax activation function with size 6
+ * Dropout of 0.25
+ * Batch Normalisation
+ ![Model](https://github.com/JiaJun98/Shopee-Code-League-2020/blob/main/Sentimental%20Analysis/Model.PNG)
+ 
+ ### Predictions
+ After training, we used the model to predict the ratings based on the product review of the test set
+ ![Model](https://github.com/JiaJun98/Shopee-Code-League-2020/blob/main/Product%20Detection/Predictions.PNG)
 
