@@ -12,6 +12,9 @@ For product detection, we were given a problems consisiting of 100k images. The 
  
  ![parsing](https://github.com/JiaJun98/Shopee-Code-League-2020/blob/main/Product%20Detection/OpenCV.PNG)
  
+ ### Feature engineering
+ Afterwards, we added the features into our X_test to be used to train our machine learning model
+ ![ft](https://github.com/JiaJun98/Shopee-Code-League-2020/blob/main/Product%20Detection/Feature%20Engineering.PNG)
  
  
 
