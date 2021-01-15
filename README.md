@@ -16,6 +16,22 @@ For product detection, we were given a problems consisiting of 100k images. The 
  Afterwards, we added the features into our X_test to be used to train our machine learning model
  ![ft](https://github.com/JiaJun98/Shopee-Code-League-2020/blob/main/Product%20Detection/Feature%20Engineering.PNG)
  
+ ### Model development and training
+ We used python's keras library with "Sequential" model that is flattened to 1-dimension to fit the input that we are feeding 28x28 pixels consisting of 128 hidden units using "adam" optimiser. 
+ 
+ ![Model development and training](https://github.com/JiaJun98/Shopee-Code-League-2020/blob/main/Product%20Detection/Feature%20Engineering.PNG)
+ 
+ We then used the same file parsing technique to read the 12,192 files into a dataframe to be predicted,followed by feature engineering,to be predicted after training. 
+ ![ft](https://github.com/JiaJun98/Shopee-Code-League-2020/blob/main/Product%20Detection/OpenCV(1).PNG)
+ 
+ I then used a tensorflow-keras model with softmax layer, which normalises the output into a probability distribution, as the machine learning model with the training set as inputs.
+ ![training](https://github.com/JiaJun98/Shopee-Code-League-2020/blob/main/Product%20Detection/Training.PNG)
+
+ ### Predictions
+ After training, I used the model to predict the categories of the images inserted and exported it as a csv file.
+ 
+ ![testing](https://github.com/JiaJun98/Shopee-Code-League-2020/blob/main/Product%20Detection/Testing.PNG)
+ 
  
 
 ## 2. Sentimental Analysis
