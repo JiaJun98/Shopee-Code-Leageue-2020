@@ -32,6 +32,7 @@ For product detection, we were given a problems consisiting of 100k images. The 
  
  ![testing](https://github.com/JiaJun98/Shopee-Code-League-2020/blob/main/Product%20Detection/Testing.PNG)
  
- 
+ ###Results
+ We had an overall of 40.327% accuracy of product categories between test and the answer datasets. More improvements should be made to our model to improve accuracy
 
 ## 2. Sentimental Analysis
