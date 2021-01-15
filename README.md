@@ -32,7 +32,17 @@ For product detection, we were given a problems consisiting of 100k images. The 
  
  ![testing](https://github.com/JiaJun98/Shopee-Code-League-2020/blob/main/Product%20Detection/Testing.PNG)
  
- ###Results
+ ### Results
  We had an overall of 40.327% accuracy of product categories between test and the answer datasets. More improvements should be made to our model to improve accuracy
 
 ## 2. Sentimental Analysis
+
+For sentimental analysis, we were given product review datasets. The goal was to create a classification model for sentimental analysis so as to predict the rating based on the reviews given using Natural Language Processing(NLP). Our team used nltk-for NLP-, tensorflow and keras for machine learning and sklearn for classification, regression and clustering algorithms.
+
+### Data Pre-Processing
+To clean the data, we removed punctuations,special characters and stopwords.
+
+ ![Pre-processing1](https://github.com/JiaJun98/Shopee-Code-League-2020/blob/main/Sentimental%20Analysis/pre_processing(1).PNG)
+ ![Pre-processing2](https://github.com/JiaJun98/Shopee-Code-League-2020/blob/main/Sentimental%20Analysis/pre_processing(2).PNG)
+
+
